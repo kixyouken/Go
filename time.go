@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-
 	t := time.Now()
 	fmt.Println("当前时间带毫秒：", t)
 

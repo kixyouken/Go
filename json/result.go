@@ -12,7 +12,7 @@ type Result struct {
 }
 
 type Person struct {
-	ID   int    `json:"id"`
+	Id   int    `json:"id"`
 	Name string `json:"name"`
 	Age  int    `json:"age"`
 }
@@ -20,10 +20,10 @@ type Person struct {
 func main() {
 	// 定义二维结构体
 	var persons = []Person{
-		{ID: 1, Name: "张三", Age: 18},
-		{ID: 2, Name: "李四", Age: 20},
-		{ID: 3, Name: "王五"},
-		{ID: 4, Name: "赵六"},
+		{Id: 1, Name: "张三", Age: 18},
+		{Id: 2, Name: "李四", Age: 20},
+		{Id: 3, Name: "王五"},
+		{Id: 4, Name: "赵六"},
 	}
 	result := Result{
 		Code:    200,
